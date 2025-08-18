@@ -7,6 +7,14 @@ import TempConvertor from "./components/projects/4.temp-convertor";
 import OtpInput from "./components/projects/5.otp";
 import FormValidation from "./components/projects/6.form-validate";
 import CustomTabs from "./components/projects/7.custom-tabs";
+import FlatArray from "./components/projects/8.flatArray";
+import FlattenObjectInspector from "./components/projects/10.flatten-object-inspector";
+import DeepClone from "./components/projects/11.DeepClone";
+import ProductProvider from "./components/context/product-context";
+import ProductList from "./components/projects/13.product-list";
+import KanbanBoard from "./components/projects/14.kunbanBoard";
+import StringCompression from "./components/projects/15.stringCompression";
+import DebounceSearch from "./components/projects/16.debounce";
 function App() {
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900 flex flex-col">
@@ -25,6 +33,15 @@ function App() {
         {/* <OtpInput/> */}
        {/*  <FormValidation/> */}
        {/* <CustomTabs/> */}
+       {/* <FlatArray/> */}
+       {/* <FlattenObjectInspector/> */}
+       {/* <DeepClone/> */}
+       {/* <ProductProvider>
+        <ProductList/>
+       </ProductProvider> */}
+        {/* <KanbanBoard/> */}
+        {/* <StringCompression/> */}
+        <DebounceSearch/>
       </main>
     </div>
   )
