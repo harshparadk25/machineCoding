@@ -15,6 +15,13 @@ import ProductList from "./components/projects/13.product-list";
 import KanbanBoard from "./components/projects/14.kunbanBoard";
 import StringCompression from "./components/projects/15.stringCompression";
 import DebounceSearch from "./components/projects/16.debounce";
+import MultiStepForm from "./components/projects/17.multiStepFrom";
+import CustomPromiseAll from "./components/projects/18.customPromiseAll";
+import TodoList from "./components/projects/19.todo-list";
+import SequentialProgressBar from "./components/projects/20.sequential-bar";
+import StickySlideBar from "./components/projects/21.stickySlideBar";
+import PasswordStrength from "./components/projects/22.password-check";
+import HorizontalScrollBar from "./components/projects/23.horizontal-scroll";
 function App() {
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900 flex flex-col">
@@ -41,7 +48,14 @@ function App() {
        </ProductProvider> */}
         {/* <KanbanBoard/> */}
         {/* <StringCompression/> */}
-        <DebounceSearch/>
+        {/* <DebounceSearch/> */}
+        {/* <MultiStepForm/> */}
+        {/* <CustomPromiseAll/> */}
+        {/* <TodoList /> */}
+        {/* <SequentialProgressBar /> */}
+        {/* <StickySlideBar /> */}
+        {/* <PasswordStrength/> */}
+        <HorizontalScrollBar/>
       </main>
     </div>
   )
