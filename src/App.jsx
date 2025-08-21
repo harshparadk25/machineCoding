@@ -21,7 +21,9 @@ import TodoList from "./components/projects/19.todo-list";
 import SequentialProgressBar from "./components/projects/20.sequential-bar";
 import StickySlideBar from "./components/projects/21.stickySlideBar";
 import PasswordStrength from "./components/projects/22.password-check";
-import HorizontalScrollBar from "./components/projects/23.horizontal-scroll";
+import HorizontalScrollMenu from "./components/projects/23.horizontal-scroll";
+import DynamicForm from "./components/projects/24.dynamic-form";
+import FileExplorer from "./components/projects/25.file-explorer";
 function App() {
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900 flex flex-col">
@@ -55,7 +57,9 @@ function App() {
         {/* <SequentialProgressBar /> */}
         {/* <StickySlideBar /> */}
         {/* <PasswordStrength/> */}
-        <HorizontalScrollBar/>
+        {/* <HorizontalScrollMenu/> */}
+        {/* <DynamicForm/> */}
+        <FileExplorer/>
       </main>
     </div>
   )
